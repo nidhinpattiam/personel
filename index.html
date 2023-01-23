@@ -9,7 +9,7 @@
   <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C4D03AQEYuVpJZMbMaA/profile-displayphoto-shrink_200_200/0/1656307247215?e=1675296000&v=beta&t=P-T3vZXxasikDe8GLX4A753bgHXOykgWCsurRjOMuPQ" type="image/gif" sizes="16x16">
 </head>
 <body>
-  <header class="bg-success">
+  <header class="bg-success" style="position: fixed;width: 100%;z-index: 1;">
     <div class="row text-white">
       <div class="col-md-6 col-9 p-3 pl-4">
         <h2>Nidhin Koodan</h2>
@@ -24,16 +24,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link text-white" href="#home-section">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Qualification</a>
+                <a class="nav-link text-white" href="#Qualification">Qualification</a>
               </li>
+              
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact me</a>
+                <a class="nav-link text-white" href="#contact">Contact me</a>
               </li>
               
               
@@ -46,7 +44,7 @@
 
   </header>
 
-  <section class="p-3">
+  <section id="home-section" style="padding-top: 7em;">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
@@ -63,7 +61,7 @@
       </div>
     </div>
   </section>
-  <section>
+  <section id="Qualification" style="padding-top: 6em;">
     <div class="container bg-light">
         
         <h2 class="bg-success text-white" data-aos="fadeup">Qualifications</h2>
@@ -85,7 +83,7 @@
               The system contains smart switching based on load priority with respect
               to the backup battery. The heart of the circuit is PIC16F877 as main
               controlling unit.</p>
-        <h2 class="bg-success text-white">Contact Me</h2> <br>
+        <h2 class="bg-success text-white" id="contact">Contact Me</h2> <br>
         <p>call : +91 9946533012</p>
         <p>email : nidhinpattiam@gmail.com</p>
         <p>location : Kannur,Kerala,India</p>
